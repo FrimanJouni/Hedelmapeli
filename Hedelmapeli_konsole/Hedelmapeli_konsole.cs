@@ -35,7 +35,6 @@ public class Hedelmapeli_konsole
 
     public static int PelaajaKomento(int panos)
     {
-        int komento = 0;
 
         Console.WriteLine("Anna numerona komento mitä haluat tehdä :"); //Tulostetaan komennot näytille
         Console.WriteLine("1) Käynnistä Hedelmäpeli");
@@ -43,7 +42,7 @@ public class Hedelmapeli_konsole
         Console.WriteLine("3) Lopeta peli");
         Console.Write(">");
 
-        return komento = Convert.ToInt32(Console.ReadLine()); //Palauttaa int arvona pelaajan valitseman komennon
+        return Convert.ToInt32(Console.ReadLine()); //Palauttaa int arvona pelaajan valitseman komennon
     }
 
     public static int Kaynnista(int [] arvotutNumerot, int rahat, int panos)
@@ -58,7 +57,7 @@ public class Hedelmapeli_konsole
             arvotutNumerot[i] = rnd.Next(1,5);      //Arvotaan tulokset taulukkoon
         }
 
-        Grafiikka(arvotutNumerot, rahatPanos);                //Arvonnan jälkeen kutsutaan grafiikka aliohjelmaa joka tulostaa pelin näytölle
+        Grafiikka(arvotutNumerot);                //Arvonnan jälkeen kutsutaan grafiikka aliohjelmaa joka tulostaa pelin näytölle
         int palautus = VoitonTarkistus(arvotutNumerot, rahatPanos, panos); //Arvonnan jälkeen voitontarkistus
 
         return palautus; //Lopulta palauttaa rahatilanteen pääohjelmaan
@@ -67,7 +66,7 @@ public class Hedelmapeli_konsole
 
     public static int Panosta(int rahat) //Panoksen asetus
     {
-        int panos = 1;
+        int panos;
         Console.WriteLine("Aseta panos:");
         panos = Convert.ToInt32(Console.ReadLine());
         if (rahat >= panos) return panos;                   //Rahojen riittävyyden tarkistus
@@ -78,7 +77,7 @@ public class Hedelmapeli_konsole
         }
     }
 
-    public static void Grafiikka(int [] arvotutNumerot, int rahat)
+    public static void Grafiikka(int [] arvotutNumerot)
     {
         int laskuri = 0;
         Console.WriteLine("*********************");

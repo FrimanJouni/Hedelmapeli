@@ -1,0 +1,13 @@
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.exe
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.deps.json
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.runtimeconfig.json
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.runtimeconfig.dev.json
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.dll
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\bin\Debug\netcoreapp3.1\Hedelmapeli_konsole.pdb
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.csprojAssemblyReference.cache
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.AssemblyInfoInputs.cache
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.AssemblyInfo.cs
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.csproj.CoreCompileInputs.cache
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.dll
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.pdb
+D:\Yliopisto\ITKP102 Ohjelmointi\ohj1\ht\Hedelmapeli\Hedelmapeli_konsole\obj\Debug\netcoreapp3.1\Hedelmapeli_konsole.genruntimeconfig.cache

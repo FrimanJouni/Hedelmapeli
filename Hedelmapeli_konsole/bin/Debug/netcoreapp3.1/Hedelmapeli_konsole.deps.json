@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hedelmapeli_konsole/1.0.0": {
+        "runtime": {
+          "Hedelmapeli_konsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hedelmapeli_konsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

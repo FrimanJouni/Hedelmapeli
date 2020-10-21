@@ -23,7 +23,7 @@ public class Hedelmapeli_konsole
 
         while (exit == false)                                //Mainloop, toistaa itseään kunnes suljetaan TODO:lopetus pelille ilman vakiota
         {
-            int komento = PelaajaKomento(panos);                      //Ottaa pelaajan komennon vastaan ja iffeillä päätetään mitä tapahtuu. TODO: Pohdi olisko joku fiksumpi systeemi (?)
+            int komento = PelaajaKomento(panos, rahat);                      //Ottaa pelaajan komennon vastaan ja iffeillä päätetään mitä tapahtuu. TODO: Pohdi olisko joku fiksumpi systeemi (?)
 
             if (komento == 1) rahat = Kaynnista(arvotutNumerot, rahat, panos);              //Komennon perusteella käynnistää pelin
             if (komento == 2) panos = Panosta(rahat);                         //Komennon perusteella nostaa tai laskee panosta.
@@ -33,12 +33,12 @@ public class Hedelmapeli_konsole
         }
     }
 
-    public static int PelaajaKomento(int panos)
+    public static int PelaajaKomento(int panos, int rahat)
     {
 
         Console.WriteLine("Anna numerona komento mitä haluat tehdä :"); //Tulostetaan komennot näytille
         Console.WriteLine("1) Käynnistä Hedelmäpeli");
-        Console.WriteLine("2) Muuta panosta, panos nyt > {0}. kolikkoa", panos);
+        Console.WriteLine("2) Muuta panosta, panos nyt > {0}. kolikkoa ja sinulla on tilillä > {1} kolikkoa", panos, rahat);
         Console.WriteLine("3) Lopeta peli");
         Console.Write(">");
 

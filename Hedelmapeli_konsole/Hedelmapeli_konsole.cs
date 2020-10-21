@@ -137,4 +137,4 @@ public class Hedelmapeli_konsole
 
 
 
-//TODO: Lisää eri voittoluokkia  -----> näiden jälkeen siirto jypeliin. TESTITIESIT
+//TODO: Lisää eri voittoluokkia  -----> näiden jälkeen siirto jypeliin. TESTITIESIT LISÄÄÄÄÄ ÄTESTITÄÄÄTTS
